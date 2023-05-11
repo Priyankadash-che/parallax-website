@@ -1,0 +1,69 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: aquamarine
+}
+
+.pimg1 {
+    background-image: url(images/tree-g896f2f3fb_1280.jpg);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(images/beautiful-flowers-ga4a1f2a00_1920.jpg);
+    min-height: 800px;
+}
+
+.pimg3 {
+    background-image: url(images/mountains-gad2046fa5_1920.jpg);
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.textBg {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+
+}
+
+.section-light {
+    background-color: white;
+    color: black;
+}
+
+.section-dark {
+    background-color: aliceblue;
+    color: black;
+}
